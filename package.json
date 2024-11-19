@@ -1,0 +1,29 @@
+{
+  "name": "latihan1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "dev": "nodemon ./src/app.js",
+    "fresh:migrate": "",
+    "fresh:migrate:seed": "",
+    "migrate": "",
+    "seed": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}
